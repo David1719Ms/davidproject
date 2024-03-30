@@ -1,0 +1,46 @@
+.card{
+    width: 250px ;
+    margin: 10px;
+}
+.card img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    opacity: 0.9;
+}
+
+img{
+    height: 50%;
+    margin-top: 15px;
+}
+
+.body{
+    background-color: rgb(153, 11, 11);
+}
+
+.registro{
+display: grid;
+padding: 50px;
+border-radius: 10px;
+place-content: center;
+
+}
+
+input{
+    border-radius: 5px;
+    box-shadow: 0 0 35px #cbcfd4;
+}
+
+.btn{
+    text-decoration: none;
+    background-color: #9aea10;
+    margin-top: 20px;
+    padding: 8px;
+}
+
+.txtcolor{
+    color: white;
+}
+
+.a{
+    text-decoration: none;
+}
