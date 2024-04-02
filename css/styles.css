@@ -1,56 +1,67 @@
-ul li:hover{
-background-color: #556b2f;
-border-radius: 5px;
-overflow: hidden;
-transition: 0.5s;
-box-shadow: 0 0 30px #cbcfd4;
+ul li:hover {
+  background-color: dimgray;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: 0.5s;
+  box-shadow: 0 0 30px #cbcfd4;
 }
-img{
-    height: 360px;
-    width: 1358px;
-    display: block;
+img {
+  height: 360px;
+  width: 1318px;
+  display: block;
 }
 
-h1{
-    position: absolute;
+h1 {
+  position: absolute;
 }
 .texto-superpuesto {
-    position: absolute;
-    top: 50%; 
-    left: 10%; 
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.5); 
-    color: #ffffff; 
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
 }
 
-.contenedor{
-    position: relative;
-    display: inline-block;
+.contenedor {
+  position: relative;
+  display: inline-block;
 }
 .fjalla-one-regular {
-    font-family: "Fjalla One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: black;
-  }
-  
-  
-
-  h1 span:hover{
-    background-color: #9aea10;
-    border-radius: 5px;
-    overflow: hidden;
-    transition: 0.5s;
-    box-shadow: 0 0 30px #cbcfd4;
-    padding: 9px;
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
 }
 
-.contain{
-    display: block;
-    padding: 30px;
-    
-    text-align: center;
+h1 span:hover {
+  background-color: #9aea10;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: 0.5s;
+  box-shadow: 0 0 30px #cbcfd4;
+  padding: 9px;
 }
 
+.contain {
+  display: block;
+  padding: 30px;
 
-  
+  text-align: center;
+}
+
+.navegador {
+  color: white;
+}
+
+.boton {
+  border-radius: 3px;
+  color: white;
+  background-color: black;
+}
+
+button:hover {
+  background-color: dimgray;
+  transition: 0.5s;
+  box-shadow: 0 0 20px #cbcfd4;
+}
