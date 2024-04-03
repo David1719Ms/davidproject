@@ -1,53 +1,133 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Iniciar sesión</title>
-        <!-- Required meta tags -->
-        <meta charset="utf-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  <head>
+    <title>Iniciar sesión</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="../index.html" />
+  </head>
+
+  <body style="background-color: rgb(250, 248, 243)">
+    <header style="text-align: center">
+      <h1>Liverpool fans Fc</h1>
+      <hr />
+    </header>
+    <div class="registro">
+      <form action="">
+        <h2>Iniciar sesión</h2>
+        <hr />
+        <label for="">Correo</label><br />
+        <input
+          placeholder="Ingrese su correo"
+          required
+          type="email"
+          name=""
+          id=""
+        /><br />
+        <label for="">Nombre ó apodo</label><br />
+        <input placeholder="Ingrese su nombre" required type="text" /><br />
+        <label for="">Contraseña</label><br />
+        <input
+          placeholder="Ingrese su contraseña..."
+          required
+          type="password"
+          name=""
+          id=""
         />
+        <div>
+          <button class="btn" style="text-decoration: none; color: white">
+            <a
+              href="../index.html"
+              class="regist"
+              style="text-decoration: none; color: white"
+              >Iniciar sesión
+            </a>
+          </button>
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            Registro
+          </button>
+        </div>
+      </form>
+    </div>
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Registrarse</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body" style="text-align: center">
+            <label for="">Nombre ó apodo</label><br />
+            <input placeholder="Ingrese su nombre" required type="text" /><br />
+            <label for="">Contraseña</label><br />
+            <input
+              placeholder="Ingrese su contraseña..."
+              required
+              type="password"
+              name=""
+              id=""
+              <br
+            />
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+            <button type="button" class="btn btn-primary">
+              <a
+                href="../index.html"
+                style="text-decoration: none; color: white"
+              >
+                Registrar</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
 
-        <!-- Bootstrap CSS v5.2.1 -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-            crossorigin="anonymous"
-        />
-        <link rel="stylesheet" href="CSS/style.css">
-    </head>
-
-    <body style="background-color: rgb(250, 248, 243);" >
-        <header style="text-align: center; ">
-            <h1>Liverpool fans Fc</h1><hr>
-        </header>
-            <div class="registro">
-                <form action="">
-                    <h2>Iniciar sesión</h2>
-                    <hr>
-                    <label for="">Correo</label><br>
-                    <input placeholder="Ingrese su correo" required type="email" name="" id=""><br>
-                    <label for="">Nombre ó apodo</label><br>
-                    <input placeholder="Ingrese su nombre" required type="text"><br>
-                    <label for="">Contraseña</label><br>
-                    <input placeholder="Ingrese su contraseña..." required type="password" name="" id="">
-                    <ul>
-                        <li class="btn" ><a href="../index.html" style="text-decoration: none; color:white">Iniciar sesión</a></li>
-                    </ul>
-                </form>
-            </div>
-        <script
-            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-            crossorigin="anonymous"
-        ></script>
-
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-            crossorigin="anonymous"
-        ></script>
-    </body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
